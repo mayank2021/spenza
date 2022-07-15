@@ -1,0 +1,76 @@
+.market-title{
+    font-size: 26px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px 30px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    color: #6D5A8E;
+    justify-content: flex-start;
+}
+
+.button-container{
+    /* height: 30px; */
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.search-bar{
+    display: flex;
+}
+
+.searchbar-input{
+    font-size: 16px;
+    margin: 0;
+    font-weight: 400;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    color:rgba(0, 0, 0, 0.19);
+    border-right: none;
+    padding: 8px 15px;
+    width: 160px;
+    border-radius: 4px 0 0 4px;
+    text-transform: capitalize;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button-con{
+    justify-content: space-between;
+    padding: 15px 20px 15px 5px;
+}
+
+.searchbar-button{
+    font-size: 14px;
+    margin: 0;
+    color:white;
+    cursor: pointer;
+    background-color: #6D5A8E;
+    font-weight: 400;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 0 4px 4px 0;
+    text-transform: capitalize;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.vendor-card{
+    width: 150px;
+    padding: 10px;
+    margin: 11px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.vendor-card:hover{
+    transform: scale(1.1);
+}
+
+.vendors--con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

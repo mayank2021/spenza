@@ -1,0 +1,35 @@
+.tab--container{
+    display: flex;
+    padding: 10px 0 10px 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tab--container:hover{
+    background-color: #E7E4EB;
+}
+
+.tab--container img{
+    width: 15px;
+}
+
+.tab--container p{
+   
+}
+
+.text-heading{
+    color: #7F768A;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left:10px ;
+    text-transform: capitalize;
+}
+
+.active-tab{
+    background-color: #E7E4EB;
+}
+
+.active--text{
+color: #6D5A8E !important;
+font-weight: 600;
+}

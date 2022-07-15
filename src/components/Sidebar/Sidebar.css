@@ -1,0 +1,10 @@
+.sidebar-main--container{
+    border-right: 1px solid #B7B7B7;
+    height: 100vh;
+    position: fixed;
+    padding-top:10px;
+}
+
+.sidebar-main--container img{
+width: 260px;
+}

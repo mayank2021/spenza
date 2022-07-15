@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Sidebar from "./components/Sidebar/Sidebar";
+import Navbar from "./components/Navbar/Navbar";
+import MainCompo from "./components/MainCompo/MainCompo";
+import MarketPlace from "./components/MarketPlace/MarketPlace";
+import VendorDetail from "./components/VendorDetailPage/VendorDetail";
+import { useState } from "react";
 
 function App() {
+  const [active, setActive] = useState("0");
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-main--container">
+      <Sidebar setActive={setActive} active={active} />
+      <div className="app-right-container">
+        <Navbar />
+        {active === "0" ? (
+          <MainCompo />
+        ) : active === "3" ? (
+          <MarketPlace setActive={setActive} active={active} />
+        ) : active === "zoom" ? (
+          <VendorDetail />
+        ) : null}
+      </div>
     </div>
   );
 }

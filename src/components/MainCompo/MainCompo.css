@@ -1,0 +1,32 @@
+.section-top{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0;
+}
+.section-top img{
+ width: 210px;
+ border-radius: 8px;
+ box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.spend-trend{
+    display: flex;
+    justify-content: center;
+}
+
+.spend-trend img{
+    border-radius: 6px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    width: 935px;
+}
+
+.bar-chart{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+.bar-chart img{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+
+    width: 935px;
+}
